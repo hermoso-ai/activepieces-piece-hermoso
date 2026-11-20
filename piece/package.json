@@ -1,0 +1,39 @@
+{
+  "name": "@hermoso/piece-hermoso",
+  "version": "0.1.0",
+  "description": "Hermoso piece for Activepieces: research winning ads, make on-brand image and video ads, and publish or schedule social posts from your flows.",
+  "keywords": [
+    "activepieces",
+    "activepieces-piece",
+    "hermoso",
+    "ai-ads",
+    "marketing",
+    "social-media"
+  ],
+  "author": "Hermoso <hello@hermoso.ai> (https://hermoso.ai)",
+  "license": "MIT",
+  "homepage": "https://hermoso.ai/connect/activepieces/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hermoso-ai/activepieces-piece-hermoso.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hermoso-ai/activepieces-piece-hermoso/issues"
+  },
+  "main": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.lib.json && cp package.json dist/",
+    "bundle": "node ../../../../dist/packages/cli/src/index.js pieces bundle",
+    "lint": "eslint 'src/**/*.ts'",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@activepieces/pieces-common": "workspace:*",
+    "@activepieces/pieces-framework": "workspace:*"
+  },
+  "devDependencies": {
+    "tslib": "2.6.2",
+    "vitest": "5.0.5"
+  }
+}
