@@ -1,14 +1,16 @@
 {
   "name": "@hermoso/piece-hermoso",
-  "version": "0.1.0",
-  "description": "Hermoso piece for Activepieces: research winning ads, make on-brand image and video ads, and publish or schedule social posts from your flows.",
+  "version": "0.2.0",
+  "description": "Hermoso piece for Activepieces: research winning ads, make on-brand image and video ads, publish or schedule social posts, and launch hosted sites with domains and domain email from your flows.",
   "keywords": [
     "activepieces",
     "activepieces-piece",
     "hermoso",
     "ai-ads",
     "marketing",
-    "social-media"
+    "social-media",
+    "website-hosting",
+    "domains"
   ],
   "author": "Hermoso <hello@hermoso.ai> (https://hermoso.ai)",
   "license": "MIT",
